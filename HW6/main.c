@@ -10,14 +10,7 @@ void main()
    int num = pack4Chars2Int('a', 'b', 'c', 'd');
    int mask1 = 1;
    mask1 <<= 31;
-   while (mask1 != 0) {
-       if ((mask1 & num)== mask1)
-           printf("1");
-       else
-           printf("0");
-       mask1 >>= 1;
-   }
-    short input = -14580;
+    short input =24 ;
     printf( "\n%d", checkEvenParity(input));
 }
 
